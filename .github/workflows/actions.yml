@@ -24,7 +24,7 @@ jobs:
             run: |
                 pwd
                 ls -a
-          - name: simple JS Action, dude!!!
+          - name: simple JS Action
             id: greet
             uses: actions/hello-world-javascript-action@v1
             with: 
