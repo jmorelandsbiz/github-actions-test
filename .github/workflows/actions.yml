@@ -1,6 +1,6 @@
 name: Actions Workflow
 
-on: [push]
+on: [push, pull_request]
 
 
 jobs:
@@ -28,4 +28,3 @@ jobs:
                 who-to-greet: Jeremy
           - name: Log Greeting Time
             run: echo "${{ steps.greet.outputs.time }}}"
-            
